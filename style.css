@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  background-image: url(assets/steve-carell.jpg);
+  background-color: rgb(160, 160, 160);
+  font-family: 'helvetica neue';
+  font-size: 20px;
+  font-weight: 200;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.text-center {
+  text-align: center;
+  font-family: 'Calibri';
+  color: white;
+  text-shadow: 1px 2px 5px rgba(65, 65, 65, 0.7);
+}
+
+#quote {
+  margin: 0 auto 0 10%;
+  position: relative;
+  background: white;
+  list-style: none;
+  border-bottom: 1px solid #D8D8D8;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.44);
+  padding: 30px;
+  text-align: center;
+  width: 50%;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+}
