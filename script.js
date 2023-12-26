@@ -149,11 +149,15 @@ const quotes = [
   "Is there a God? If not, what are all these churches for? And who is Jesus's dad?"
 ]
 
-let random_quote = quotes[Math.floor(Math.random() * quotes.length)];
+function new_quote () {
+  let random_quote = quotes[Math.floor(Math.random() * quotes.length)];
 
-const quote = document.querySelector('.quote');
+  const quote = document.querySelector('#quote');
 
-const html = `
+  const html = `
   <h2>${random_quote}</h2>
   `;
-document.getElementById("quote").innerHTML = html;
+  document.getElementById("quote").innerHTML = html;
+}
+
+new_quote()

@@ -20,16 +20,37 @@ html {
   text-shadow: 1px 2px 5px rgba(65, 65, 65, 0.7);
 }
 
-#quote {
-  margin: 0 auto 0 10%;
+.quoting-side {
   position: relative;
+  width: 50%;
+  margin: 0 auto 0 5%;
+}
+
+#quote {
   background: white;
-  list-style: none;
   border-bottom: 1px solid #D8D8D8;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.44);
-  padding: 30px;
+  padding: 10px 30px;
   text-align: center;
-  width: 50%;
   font-family: 'Caveat', cursive;
   font-size: 2rem;
+}
+
+.center {
+  margin: 15px auto;
+  position: relative;
+  text-align: center;
+}
+
+.again {
+  all: unset;
+  font-family: 'Calibri';
+  color: white;
+  border-radius: 5px;
+  background-color: #37363b;
+  text-shadow: 1px 2px 5px rgba(65, 65, 65, 0.7);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.44);
+  width: 50%;
+  padding: 10px;
+  cursor: pointer;
 }
