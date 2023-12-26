@@ -9,9 +9,9 @@ html {
   background-size: cover;
 }
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: inherit;
-}
+} */
 
 .text-center {
   text-align: center;
